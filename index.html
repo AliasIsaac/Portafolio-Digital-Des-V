@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Portafolio Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212; /* Tema oscuro */
+            color: #ffffff; /* Texto legible */
+            font-family: Arial, sans-serif;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+        .navbar-dark .navbar-brand {
+            color: #ffffff;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ffffff;
+            display: inline-block;
+        }
+        .project-link, .contact-link {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+        .project-link:hover, .contact-link:hover {
+            text-decoration: underline;
+        }
+        .skills-list li {
+            margin-bottom: 0.5rem;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+        }
+        .profile-picture {
+            max-width: 300px; /* Tamaño fijo para mantener el diseño simétrico */
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portafolio digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Sección de presentación -->
+<header class="text-center py-5">
+    <div class="image-container">
+        <img src="C:\Users\Isaac\Documents\Portafolio\imagenes\Imagen de WhatsApp 2024-11-12 a las 12.37.41_62aeb702.jpg" 
+             alt="Foto de Isaac Suman" class="profile-picture" style="width: 300px; height: 400px; object-fit: cover;">
+    </div>
+    <h1 class="mt-4">Isaac Suman</h1>
+    <p>Desarrollador de software apasionado por la creación de sitios web funcionales y estéticamente agradables, apasionado por los deportes.</p>
+</header>
+
+
+   <!-- Sección de proyectos -->
+<section id="proyectos" class="container py-5">
+    <h2 class="section-title">Proyectos</h2>
+    <ul>
+        <li>
+            <a class="project-link" href="file:///C:/Users/Isaac/Downloads/car-wash-website-template/car-wash-website-template/index.html" target="_blank">
+                Proyecto Car Wash
+            </a>
+            <div class="image-container mt-3">
+                <img src="C:\Users\Isaac\Documents\Portafolio\imagenes\Captura de pantalla 2024-11-12 123547.png" 
+                     alt="Captura de Proyecto Car Wash" style="width: 1295px; height: 551px;">
+            </div>
+        </li>
+        <li class="mt-4">
+            <a class="project-link" href="https://proyecto-ds-5.vercel.app/" target="_blank">
+                Proyecto en GitHub
+            </a>
+        </li>
+    </ul>
+</section>
+
+<!-- Sección de tareas del semestre -->
+<section id="tareas" class="container py-5">
+    <h2 class="section-title">Tareas del Semestre</h2>
+    <ul>
+        <!-- Tarea 1 -->
+        <li>
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Tarea Iconos y paginas webs Desarrollo de software V.docx" target="_blank">
+                Tarea Iconos y páginas web
+            </a>
+        </li>
+        
+        <!-- Tarea 2 con preview -->
+        <li class="mt-4">
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Comparativas de servicios de Hosting.docx" target="_blank">
+                Comparativa de servicios hosting
+            </a>
+            <div class="image-container mt-3">
+                <img src="C:\Users\Isaac\Documents\Portafolio\imagenes\Captura de pantalla servicios hosting.png" 
+                     alt="Preview de Comparativa de servicios hosting" style="max-width: 500px; height: auto;">
+            </div>
+        </li>
+        
+        <!-- Tarea 3 -->
+        <li class="mt-4">
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Proyecto de negocio.docx" target="_blank">
+                Proyecto de negocio
+            </a>
+        </li>
+        
+        <!-- Tarea 4 con imagen -->
+        <li class="mt-4">
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Flyer Lava Naves a Domicilio.jpg" target="_blank">
+                Flyer Lava Naves a Domicilio
+            </a>
+            <div class="image-container mt-3">
+                <img src="C:\Users\Isaac\Documents\Portafolio\Tareas\Flyer Lava Naves a Domicilio.jpg" 
+                     alt="Preview del Flyer Lava Naves a Domicilio" style="max-width: 600px; height: auto;">
+            </div>
+        </li>
+        
+        <!-- Tarea 5 -->
+        <li class="mt-4">
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Comparativas de servicios de Hosting.docx" target="_blank">
+                Cuña publicitaria
+            </a>
+        </li>
+        
+        <!-- Tarea 6 con audio -->
+        <li class="mt-4">
+            <a href="C:\Users\Isaac\Documents\Portafolio\Tareas\Lava autos a domicilio.m4a" target="_blank">
+                Audio Lava Autos a Domicilio
+            </a>
+        </li>
+    </ul>
+</section>
+
+
+    <!-- Sección de habilidades -->
+    <section id="skills" class="container py-5">
+        <h2 class="section-title">Habilidades</h2>
+        <ul class="skills-list">
+            <li>Inglés</li>
+            <li>Office</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="container py-5">
+        <h2 class="section-title">Contacto</h2>
+        <ul>
+            <li>
+                <a class="contact-link" href="https://www.linkedin.com/in/isaac-suman" target="_blank">
+                    LinkedIn: Isaac Suman
+                </a>
+            </li>
+            <li>
+                Correo: <a class="contact-link" href="mailto:Isaacsp27@gmail.com">Isaacsp27@gmail.com</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Portafolio Digital de Isaac Suman. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
